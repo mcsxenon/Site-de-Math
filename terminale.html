@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site de Maths</title>
+    <link rel="stylesheet" href="styles_terminale.css">
+    <style>
+        .chapter {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            background-color: white;
+            border-radius: 10px;
+            margin: 2rem auto;
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 800px;
+        }
+
+        .chapter-content {
+            flex: 1;
+            margin-right: 1rem;
+        }
+
+        .chapter img {
+            max-width: 200px;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .pdf-viewer {
+            width: 100%;
+            height: 500px;
+            border: 1px solid #ccc;
+            margin-top: 10px;
+            display: none;
+            resize: horizontal;
+            overflow: auto;
+        }
+    </style>
+
+    <script type="text/javascript" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+
+</head>
+<body>
+    <header>
+        <div class="logo-barre">
+            <img src="logo-math.png" alt="Logo du site" class="logo">
+            <h1>MateMatik</h1>
+            <form action="#" class="search-bar">
+                <input type="text" placeholder="Rechercher un mot-clé...">
+                <button type="submit">🔍</button>
+            </form>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="premiere.html">Première</a></li>
+                <li><a href="terminale.html">Terminale</a></li>
+                <li><a href="python.html">Python</a></li>
+                <li><a href="math-experte.html">Math Experte</a></li>
+                <li><a href="spe-math-poussee.html">SPE Math Poussée</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside class="sidebar">
+        <h3>Navigation rapide</h3>
+        <ul>
+            <li><a href="#chapter1">Chapitre 1 : Second degré</a></li>
+            <li><a href="#chapter2">Chapitre 2 : Conditionnement</a></li>
+            <li><a href="#chapter3">Chapitre 3 : Trigonométrie</a></li>
+            <li><a href="#chapter4">Chapitre 4 : Dérivation</a></li>
+            <li><a href="#chapter5">Chapitre 5 : Produit scalaire</a></li>
+            <li><a href="#chapter6">Chapitre 6 : Application de la dérivation</a></li>
+            <li><a href="#chapter7">Chapitre 7 : Généralités sur les suites</a></li>
+            <li><a href="#chapter8">Chapitre 8 : Suites arithmétiques</a></li>
+            <li><a href="#chapter9">Chapitre 9 : Variables aléatoires</a></li>
+            <li><a href="#chapter10">Chapitre 10 : Exponentielle</a></li>
+            <li><a href="#chapter11">Chapitre 11 : Droites et cercles</a></li>
+            <li><a href="#chapter12">Chapitre 12 : Droites et cercles</a></li>
+            <li><a href="#chapter13">Chapitre 13 : Droites et cercles</a></li>
+        </ul>
+    </aside>    
+    <main>
+        <section id="presentation">
+            <h2>🧮​Section Terminale📒📐​</h2>
+            <div class="text-background">
+                <!-- Ajout des chapitres -->
+                <div id="chapter1" class="chapter">
+                    <div class="chapter-content">
+                        <h3>Chapitre 1 : Suites</h3>
+                        <p><strong>Cours :</strong> <button onclick="window.open('ooooooooooooooo', '_blank')">Télécharger le cours</button> <button class="show-pdf" data-target="pdf1">Afficher le cours</button></p>
+                        <iframe id="pdf1" src="ooooooooooooooo" class="pdf-viewer"></iframe>
+                        <p><strong>Exercices :</strong></p>
+                        <div class="button-group">
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 1</button>
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 2</button>
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 3</button>
+                        </div>
+                        <p><strong>Contrôles :</strong></p>
+                        <div class="button-group">
+                            <button class="button-blue" onclick="window.open('ooooooooooooooo', '_blank')">Sujet</button>
+                            <button class="button-red" onclick="window.open('ooooooooooooooo', '_blank')">Correction</button>
+                        </div>
+                    </div>
+                    <img src="https://blog.partiprof.fr/wp-content/uploads/2022/05/DM-suites-arithmetiques-geometriques.png" alt="Illustration chapitre 1">
+                </div>
+
+                <div id="chapter2" class="chapter">
+                    <div class="chapter-content">
+                        <h3>Chapitre 2 : Dénombrement</h3>
+                        <p><strong>Cours :</strong> <button onclick="window.open('ooooooooooooooo', '_blank')">Télécharger le cours</button> <button class="show-pdf" data-target="pdf2">Afficher le cours</button></p>
+                        <iframe id="pdf2" src="ooooooooooooooo" class="pdf-viewer"></iframe>
+                        <p><strong>Exercices :</strong></p>
+                        <div class="button-group">
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 1</button>
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 2</button>
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 3</button>
+                        </div>
+                        <p><strong>Contrôles :</strong></p>
+                        <div class="button-group">
+                            <button class="button-blue" onclick="window.open('ooooooooooooooo', '_blank')">Sujet</button>
+                            <button class="button-red" onclick="window.open('ooooooooooooooo', '_blank')">Correction</button>
+                        </div>
+                    </div>
+                    <img src="https://groupe-reussite.fr/ressources/wp-content/uploads/2020/10/denombrement3-1.png" alt="Illustration chapitre 2">
+                </div>
+
+                <div id="chapter3" class="chapter">
+                    <div class="chapter-content">
+                        <h3>Chapitre 3 : Géométrie dans l'espace</h3>
+                        <p><strong>Cours :</strong> <button onclick="window.open('ooooooooooooooo', '_blank')">Télécharger le cours</button> <button class="show-pdf" data-target="pdf3">Afficher le cours</button></p>
+                        <iframe id="pdf3" src="ooooooooooooooo" class="pdf-viewer"></iframe>
+                        <p><strong>Exercices :</strong></p>
+                        <div class="button-group">
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 1</button>
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 2</button>
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 3</button>
+                        </div>
+                        <p><strong>Contrôles :</strong></p>
+                        <div class="button-group">
+                            <button class="button-blue" onclick="window.open('ooooooooooooooo', '_blank')">Sujet</button>
+                            <button class="button-red" onclick="window.open('ooooooooooooooo', '_blank')">Correction</button>
+                        </div>
+                    </div>
+                    <img src="https://i.gifer.com/origin/7c/7c39dcf6b1805b5bd12d05fe1a044f0c_w200.gif" alt="Illustration chapitre 3">
+                </div>
+
+                <div id="chapter4" class="chapter">
+                    <div class="chapter-content">
+                        <h3>Chapitre 4 : Limites de fonctions</h3>
+                        <p><strong>Cours :</strong> <button onclick="window.open('ooooooooooooooo', '_blank')">Télécharger le cours</button> <button class="show-pdf" data-target="pdf4">Afficher le cours</button></p>
+                        <iframe id="pdf4" src="ooooooooooooooo" class="pdf-viewer"></iframe>
+                        <p><strong>Exercices :</strong></p>
+                        <div class="button-group">
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 1</button>
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 2</button>
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 3</button>
+                        </div>
+                        <p><strong>Contrôles :</strong></p>
+                        <div class="button-group">
+                            <button class="button-blue" onclick="window.open('ooooooooooooooo', '_blank')">Sujet</button>
+                            <button class="button-red" onclick="window.open('ooooooooooooooo', '_blank')">Correction</button>
+                        </div>
+                    </div>
+                    <img src="https://socles3.unisciel.fr/pluginfile.php/142728/mod_resource/content/8/Cours/res/limite07.gif" alt="Illustration chapitre 4">
+                </div>
+
+                <div id="chapter5" class="chapter">
+                    <div class="chapter-content">
+                        <h3>Chapitre 5 : Dérivation : compléments</h3>
+                        <p><strong>Cours :</strong> <button onclick="window.open('ooooooooooooooo', '_blank')">Télécharger le cours</button> <button class="show-pdf" data-target="pdf5">Afficher le cours</button></p>
+                        <iframe id="pdf5" src="ooooooooooooooo" class="pdf-viewer"></iframe>
+                        <p><strong>Exercices :</strong></p>
+                        <div class="button-group">
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 1</button>
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 2</button>
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 3</button>
+                        </div>
+                        <p><strong>Contrôles :</strong></p>
+                        <div class="button-group">
+                            <button class="button-blue" onclick="window.open('ooooooooooooooo', '_blank')">Sujet</button>
+                            <button class="button-red" onclick="window.open('ooooooooooooooo', '_blank')">Correction</button>
+                        </div>
+                    </div>
+                    <img src="https://ds055uzetaobb.cloudfront.net/image_optimizer/f1aad8cb82a3d4acf67f2fc6523d8fe10677b478.gif" alt="Illustration chapitre 5">
+                </div>
+
+                <div id="chapter6" class="chapter">
+                    <div class="chapter-content">
+                        <h3>Chapitre 6 : Continuité</h3>
+                        <p><strong>Cours :</strong> <button onclick="window.open('ooooooooooooooo', '_blank')">Télécharger le cours</button> <button class="show-pdf" data-target="pdf6">Afficher le cours</button></p>
+                        <iframe id="pdf6" src="ooooooooooooooo" class="pdf-viewer"></iframe>
+                        <p><strong>Exercices :</strong></p>
+                        <div class="button-group">
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 1</button>
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 2</button>
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 3</button>
+                        </div>
+                        <p><strong>Contrôles :</strong></p>
+                        <div class="button-group">
+                            <button class="button-blue" onclick="window.open('ooooooooooooooo', '_blank')">Sujet</button>
+                            <button class="button-red" onclick="window.open('ooooooooooooooo', '_blank')">Correction</button>
+                        </div>
+                    </div>
+                    <img src="https://lh6.googleusercontent.com/proxy/WTZ2lKMFw8Goe801edxNy7DBxoVvwe2ri5zd84My4KxAPGCmbh3-mTe0vnEjrNOYRquq7qwFsMMs6qgfntvPGMLy_Vg" alt="Illustration chapitre 6">
+                </div>
+
+                <div id="chapter7" class="chapter">
+                    <div class="chapter-content">
+                        <h3>Chapitre 7 : Logarithme népérien</h3>
+                        <p><strong>Cours :</strong> <button onclick="window.open('ooooooooooooooo', '_blank')">Télécharger le cours</button> <button class="show-pdf" data-target="pdf7">Afficher le cours</button></p>
+                        <iframe id="pdf7" src="ooooooooooooooo" class="pdf-viewer"></iframe>
+                        <p><strong>Exercices :</strong></p>
+                        <div class="button-group">
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 1</button>
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 2</button>
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 3</button>
+                        </div>
+                        <p><strong>Contrôles :</strong></p>
+                        <div class="button-group">
+                            <button class="button-blue" onclick="window.open('ooooooooooooooo', '_blank')">Sujet</button>
+                            <button class="button-red" onclick="window.open('ooooooooooooooo', '_blank')">Correction</button>
+                        </div>
+                    </div>
+                    <img src="https://cdn.futura-sciences.com/cdn-cgi/image/width=1024,quality=60,format=auto/sources/images/scientist/persov6/Neper-500.jpg" alt="Illustration chapitre 7">
+                </div>
+
+                <div id="chapter8" class="chapter">
+                    <div class="chapter-content">
+                        <h3>Chapitre 8 : Succession d'épreuves indépendantes - Schéma de Bernoulli</h3>
+                        <p><strong>Cours :</strong> <button onclick="window.open('ooooooooooooooo', '_blank')">Télécharger le cours</button> <button class="show-pdf" data-target="pdf8">Afficher le cours</button></p>
+                        <iframe id="pdf8" src="ooooooooooooooo" class="pdf-viewer"></iframe>
+                        <p><strong>Exercices :</strong></p>
+                        <div class="button-group">
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 1</button>
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 2</button>
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 3</button>
+                        </div>
+                        <p><strong>Contrôles :</strong></p>
+                        <div class="button-group">
+                            <button class="button-blue" onclick="window.open('ooooooooooooooo', '_blank')">Sujet</button>
+                            <button class="button-red" onclick="window.open('ooooooooooooooo', '_blank')">Correction</button>
+                        </div>
+                    </div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Jakob_Bernoulli.jpg/390px-Jakob_Bernoulli.jpg" alt="Illustration chapitre 8">
+                </div>
+
+                <div id="chapter9" class="chapter">
+                    <div class="chapter-content">
+                        <h3>Chapitre 9 :  Les fonctions sinus et cosinus</h3>
+                        <p><strong>Cours :</strong> <button onclick="window.open('ooooooooooooooo', '_blank')">Télécharger le cours</button> <button class="show-pdf" data-target="pdf9">Afficher le cours</button></p>
+                        <iframe id="pdf9" src="ooooooooooooooo" class="pdf-viewer"></iframe>
+                        <p><strong>Exercices :</strong></p>
+                        <div class="button-group">
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 1</button>
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 2</button>
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 3</button>
+                        </div>
+                        <p><strong>Contrôles :</strong></p>
+                        <div class="button-group">
+                            <button class="button-blue" onclick="window.open('ooooooooooooooo', '_blank')">Sujet</button>
+                            <button class="button-red" onclick="window.open('ooooooooooooooo', '_blank')">Correction</button>
+                        </div>
+                    </div>
+                    <img src=" https://upload.wikimedia.org/wikipedia/commons/3/3b/Circle_cos_sin.gif" alt="Illustration chapitre 9">
+                </div>
+
+                <div id="chapter10" class="chapter">
+                    <div class="chapter-content">
+                        <h3>Chapitre 10 : Equations différentielles - Primitives</h3>
+                        <p><strong>Cours :</strong> <button onclick="window.open('ooooooooooooooo', '_blank')">Télécharger le cours</button> <button class="show-pdf" data-target="pdf10">Afficher le cours</button></p>
+                        <iframe id="pdf10" src="ooooooooooooooo" class="pdf-viewer"></iframe>
+                        <p><strong>Exercices :</strong></p>
+                        <div class="button-group">
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 1</button>
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 2</button>
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 3</button>
+                        </div>
+                        <p><strong>Contrôles :</strong></p>
+                        <div class="button-group">
+                            <button class="button-blue" onclick="window.open('ooooooooooooooo', '_blank')">Sujet</button>
+                            <button class="button-red" onclick="window.open('ooooooooooooooo', '_blank')">Correction</button>
+                        </div>
+                    </div>
+                    <img src="https://public.iutenligne.net/electronique/arrou-vignod/CircuitRC/CaptureRC.JPG" alt="Illustration chapitre 10">
+                </div>
+
+                <div id="chapter11" class="chapter">
+                    <div class="chapter-content">
+                        <h3>Chapitre 11 : Intégrales</h3>
+                        <p><strong>Cours :</strong> <button onclick="window.open('ooooooooooooooo', '_blank')">Télécharger le cours</button> <button class="show-pdf" data-target="pdf11">Afficher le cours</button></p>
+                        <iframe id="pdf11" src="ooooooooooooooo" class="pdf-viewer"></iframe>
+                        <p><strong>Exercices :</strong></p>
+                        <div class="button-group">
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 1</button>
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 2</button>
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 3</button>
+                        </div>
+                        <p><strong>Contrôles :</strong></p>
+                        <div class="button-group">
+                            <button class="button-blue" onclick="window.open('ooooooooooooooo', '_blank')">Sujet</button>
+                            <button class="button-red" onclick="window.open('ooooooooooooooo', '_blank')">Correction</button>
+                        </div>
+                    </div>
+                    <img src="https://sites.uclouvain.be/didac-physique/didacphys/animations/mathematiques/integrale.gif" alt="Illustration chapitre 11">
+                </div>
+
+                <div id="chapter12" class="chapter">
+                    <div class="chapter-content">
+                        <h3>Chapitre 12 : Transformations de variables aléatoires</h3>
+                        <p><strong>Cours :</strong> <button onclick="window.open('ooooooooooooooo', '_blank')">Télécharger le cours</button> <button class="show-pdf" data-target="pdf11">Afficher le cours</button></p>
+                        <iframe id="pdf11" src="ooooooooooooooo" class="pdf-viewer"></iframe>
+                        <p><strong>Exercices :</strong></p>
+                        <div class="button-group">
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 1</button>
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 2</button>
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 3</button>
+                        </div>
+                        <p><strong>Contrôles :</strong></p>
+                        <div class="button-group">
+                            <button class="button-blue" onclick="window.open('ooooooooooooooo', '_blank')">Sujet</button>
+                            <button class="button-red" onclick="window.open('ooooooooooooooo', '_blank')">Correction</button>
+                        </div>
+                    </div>
+                    <img src="https://controverses.minesparis.psl.eu/public/promo14/promo14_G14/fr.cdn.v5.futura-sciences.com/sources/images/actu/rte/10614_abel-central.gif" alt="Illustration chapitre 11">
+                </div>
+
+                <div id="chapter13" class="chapter">
+                    <div class="chapter-content">
+                        <h3>Chapitre 13 : Python Au bac</h3>
+                        <p><strong>Cours :</strong> <button onclick="window.open('ooooooooooooooo', '_blank')">Télécharger le cours</button> <button class="show-pdf" data-target="pdf11">Afficher le cours</button></p>
+                        <iframe id="pdf11" src="ooooooooooooooo" class="pdf-viewer"></iframe>
+                        <p><strong>Exercices :</strong></p>
+                        <div class="button-group">
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 1</button>
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 2</button>
+                            <button class="button-green" onclick="window.open('ooooooooooooooo', '_blank')">Fiche 3</button>
+                        </div>
+                        <p><strong>Contrôles :</strong></p>
+                        <div class="button-group">
+                            <button class="button-blue" onclick="window.open('ooooooooooooooo', '_blank')">Sujet</button>
+                            <button class="button-red" onclick="window.open('ooooooooooooooo', '_blank')">Correction</button>
+                        </div>
+                    </div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="Illustration chapitre 11">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Saadi Mohamed Charki. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script_terminale.js"></script>
+
+    <aside class="sidebar-calculator">
+        <h3>Calcul de Dérivée d'une Fonction</h3>
+        <div id="equation-container">
+            <p id="equation">Cliquez sur "Nouvelle fonction" pour commencer.</p>
+        </div>
+        <button id="new-equation">Nouvelle fonction</button>
+        <button id="show-solution" disabled>Voir la solution</button>
+        <p id="solution"></p>
+    </aside>
+    
+    
+</body>
+</html>
+                
+
